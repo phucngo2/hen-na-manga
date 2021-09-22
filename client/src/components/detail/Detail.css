@@ -1,0 +1,58 @@
+.cover-img {
+    width: 100%;
+}
+
+.txt-16 {
+    font-size: 16px;
+}
+
+.txt-15 {
+    font-size: 15px;
+}
+
+.txt-22 {
+    font-size: 22px;
+}
+
+.btn-tag {
+    cursor: pointer;
+    padding: 0.125rem 0.4rem;
+}
+
+.manga-page-detail {
+    overflow: auto;
+}
+
+.btn-icon-size {
+    font-size: 20px;
+}
+
+.comment-form {
+    width: 100%;
+}
+
+.page-item {
+    padding: 0;
+    margin: 0.3% 0.5%;
+    width: calc(100% / 2 - 1%);
+    height: fit-content;
+    position: relative;
+}
+
+@media screen and (min-width: 768px) {
+    .cover-img {
+        width: 56%;
+    }
+
+    .btn-icon-size {
+        font-size: 20px;
+    }
+
+    .comment-form {
+        width: 50%;
+    }
+
+    .page-item {
+        width: calc(100% / 6 - 1%);
+    }
+}

@@ -1,0 +1,36 @@
+.table-img {
+    width: 100%;
+}
+
+.manga-form-input {
+    width: 48%;
+    margin: 1%;
+}
+
+.manga-form-select {
+    width: 31%;
+    margin: 1%;
+}
+
+.manga-form-width {
+    max-width: 768px;
+}
+
+.dashboard-smol-item {
+    width: 48% !important;
+}
+
+@media screen and (min-width: 576px) {
+    .table-img {
+        max-width: 216px;
+    }
+
+    .manga-form-select {
+        width: 16%;
+    }
+
+    .dashboard-smol-item {
+        width: 23% !important;
+        margin: 1% !important;
+    }
+}

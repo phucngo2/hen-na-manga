@@ -1,0 +1,21 @@
+.w-search-option {
+    width: 46%;
+    margin: 2%;
+}
+
+.w-search-btn {
+    width: 96%;
+    margin: 2%;
+}
+
+@media screen and (min-width: 768px) {
+    .w-search-option {
+        width: 16%;
+        margin: 1%;
+    }
+
+    .w-search-btn {
+        width: 16%;
+        margin: 1%;
+    }
+}

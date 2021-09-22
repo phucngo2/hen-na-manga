@@ -1,0 +1,39 @@
+.setting-nav {
+    position: fixed;
+    z-index: 21;
+    left: -76vw;
+    transition: 1.2s;
+}
+
+.setting-nav.show {
+    left: 0;
+}
+
+.setting-menu-btn {
+    position: fixed;
+    z-index: 69;
+    bottom: 20px;
+    left: 20px;
+    transition: 1.2s;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+}
+
+.favorite-search-form {
+    width: 60%;
+}
+
+@media screen and (min-width: 768px) {
+    .setting-nav {
+        left: 0;
+    }
+
+    .setting-menu-btn {
+        display: none;
+    }
+
+    .favorite-search-form {
+        width: 30%;
+    }
+}

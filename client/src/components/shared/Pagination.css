@@ -1,0 +1,17 @@
+.page-btn {
+    height: 26px;
+    width: 26px;
+    border-radius: 100%;
+    border: none;
+}
+
+.page-btn.active {
+    background-color: #d7d7d7;
+}
+
+@media screen and (min-width: 768px) {
+    .page-btn {
+        height: 32px;
+        width: 32px;
+    }
+}

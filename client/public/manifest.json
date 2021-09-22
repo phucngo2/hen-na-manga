@@ -1,0 +1,15 @@
+{
+    "short_name": "HenManga",
+    "name": "Hen na Manga",
+    "icons": [
+        {
+            "src": "cat.png",
+            "type": "image/png",
+            "sizes": "860x897"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+}

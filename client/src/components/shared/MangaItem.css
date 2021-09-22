@@ -1,0 +1,17 @@
+.manga-item {
+    padding: 0;
+    margin: 0.3% 0.5%;
+    width: 49%;
+    height: fit-content;
+    position: relative;
+}
+
+@media screen and (min-width: 768px) {
+    .manga-item {
+        width: 19%;
+    }
+
+    .manga-item.four {
+        width: 24%;
+    }
+}
