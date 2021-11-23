@@ -23,6 +23,8 @@ export const login = (data) => {
               avatar,
           };
 
+    localStorage.setItem("us", JSON.stringify(user));
+
     return {
         type: LOGIN,
         payload: user,
@@ -31,6 +33,7 @@ export const login = (data) => {
 
 export const logout = () => {
     localStorage.removeItem("accessToken");
+    localStorage.removeItem("us");
 
     return {
         type: LOGOUT,

@@ -60,6 +60,8 @@ module.exports = {
                 signed: true,
                 httpOnly: true,
                 maxAge: 2 * 60 * 60 * 1000, // 2 hours
+                sameSite: "none",
+                secure: true,
             });
 
             // Check user role
@@ -89,6 +91,8 @@ module.exports = {
                 signed: true,
                 httpOnly: true,
                 maxAge: 2 * 60 * 60 * 1000, // 2 hours
+                sameSite: "none",
+                secure: true,
             });
 
             // Check user role
@@ -107,6 +111,8 @@ module.exports = {
                 signed: true,
                 httpOnly: true,
                 maxAge: 0, // 2 hours
+                sameSite: "none",
+                secure: true,
             });
 
             return "Logout successfully!";
@@ -167,6 +173,8 @@ module.exports = {
                 signed: true,
                 httpOnly: true,
                 maxAge: 2 * 60 * 60 * 1000, // 2 hours
+                sameSite: "none",
+                secure: true,
             });
 
             // Check user role
